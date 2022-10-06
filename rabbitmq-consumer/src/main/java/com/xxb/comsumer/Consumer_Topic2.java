@@ -10,7 +10,7 @@ public class Consumer_Topic2 {
         //1.创建连接工厂
         ConnectionFactory factory=new ConnectionFactory();
         //2.设置参数
-        factory.setHost("114.132.246.79");
+        factory.setHost("主机ip");
         factory.setPort(5672);
         factory.setVirtualHost("/itcast");//虚拟机 默认值为 '/'
         factory.setUsername("guest");
